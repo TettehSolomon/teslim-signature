@@ -32,12 +32,22 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
-            <button className="bg-primary text-on-primary px-10 py-4 rounded-lg font-bold text-lg hover-lift transition-all flex items-center gap-2">
+            <a
+              href="https://wa.link/2fiqng"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-primary text-on-primary px-10 py-4 rounded-lg font-bold text-lg hover-lift transition-all flex items-center gap-2"
+            >
               Explore Collection <Icon name="arrow_forward" />
-            </button>
-            <button className="border-2 border-secondary text-primary px-10 py-4 rounded-lg font-bold text-lg hover:bg-secondary-container/20 transition-all">
+            </a>
+            <a
+              href="https://wa.link/2fiqng"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-secondary text-primary px-10 py-4 rounded-lg font-bold text-lg hover:bg-secondary-container/20 transition-all"
+            >
               View Rituals
-            </button>
+            </a>
           </div>
         </div>
 
