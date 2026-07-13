@@ -38,12 +38,12 @@ export const categories = [
 ]
 
 export const galleryItems = [
-  { caption: 'Art of Cosmetics', alt: 'Luxury Collection', image: images.perfumeset },
-  { caption: 'Restore Ritual', alt: 'Silky Lotions', image: images.lotions },
-  { caption: 'Golden Elixirs', alt: 'Premium Oils', image: images.bodyMist },
-  { caption: 'Sensory Journey', alt: 'Elegant Fragrance', image: images.perfume },
-  { caption: 'Textured Bliss', alt: 'Beauty Creams', image: images.beautyCreams },
-  { caption: 'Inner Vitality', alt: 'Wellness Supplements', image: images.supplements },
+  { caption: 'Art of Cosmetics', alt: 'Luxury Collection', image: '/img1.png' },
+  { caption: 'Restore Ritual', alt: 'Silky Lotions', image: '/img2.png' },
+  { caption: 'Golden Elixirs', alt: 'Premium Oils', image: '/img3.png' },
+  { caption: 'Sensory Journey', alt: 'Elegant Fragrance', image: '/img4.png' },
+  { caption: 'Textured Bliss', alt: 'Beauty Creams', image: '/img5.png' },
+  { caption: 'Inner Vitality', alt: 'Wellness Supplements', image: '/img6.png' },
 ]
 
 // Official brand marks with their official badge/icon colors.
