@@ -38,9 +38,9 @@ export const categories = [
 ]
 
 export const galleryItems = [
-  { caption: 'Art of Cosmetics', alt: 'Luxury Collection', image: images.cosmetics },
+  { caption: 'Art of Cosmetics', alt: 'Luxury Collection', image: images.perfumeset },
   { caption: 'Restore Ritual', alt: 'Silky Lotions', image: images.lotions },
-  { caption: 'Golden Elixirs', alt: 'Premium Oils', image: images.bodyOils },
+  { caption: 'Golden Elixirs', alt: 'Premium Oils', image: images.bodyMist },
   { caption: 'Sensory Journey', alt: 'Elegant Fragrance', image: images.perfume },
   { caption: 'Textured Bliss', alt: 'Beauty Creams', image: images.beautyCreams },
   { caption: 'Inner Vitality', alt: 'Wellness Supplements', image: images.supplements },
