@@ -9,7 +9,7 @@ export default function App() {
   return (
     <>
       <TopNavBar />
-      <main className="pt-24">
+      <main>
         <Hero />
         <ProductCategories />
         <Gallery />

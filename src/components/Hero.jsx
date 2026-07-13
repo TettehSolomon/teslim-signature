@@ -3,9 +3,9 @@ import { images } from '../data/content'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[85vh] flex items-center overflow-hidden px-gutter">
+    <section className="relative min-h-screen flex items-center overflow-hidden px-gutter pt-24">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent z-10" />
+        <div className="absolute inset-0 bg-linear-to-r from-background via-background/80 to-transparent z-10" />
         <div className="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]" />
         <div
           className="w-full h-full bg-cover bg-center"

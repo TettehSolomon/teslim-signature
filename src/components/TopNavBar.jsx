@@ -15,7 +15,7 @@ export default function TopNavBar() {
         <div className="flex items-center gap-4">
           <img
             alt="Teslimsignature Logo"
-            className="h-10 md:h-12 w-auto object-contain"
+            className="h-15 md:h-12 w-auto object-contain"
             src={images.logo}
           />
         </div>
@@ -45,7 +45,7 @@ export default function TopNavBar() {
               type="text"
             />
           </div>
-          <button className="bg-primary text-on-primary px-6 py-2.5 rounded-full font-semibold hover:opacity-80 transition-all duration-300 active:scale-95 text-body-md">
+          <button className="bg-primary text-on-primary px-4 py-1.5 rounded-full font-semibold hover:opacity-80 transition-all duration-300 active:scale-95 text-body-md">
             Shop Now
           </button>
         </div>
