@@ -8,7 +8,7 @@ export default function Footer() {
 
       <div className="max-w-container-max mx-auto px-gutter mt-16 pt-8 border-t border-outline-variant/20 text-center">
         <p className="font-body-sm text-body-sm text-outline-variant">
-          © 2024 Teslimsignature. All rights reserved.
+          © 2026 Teslimsignature. All rights reserved.
         </p>
       </div>
     </footer>
