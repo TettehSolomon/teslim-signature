@@ -60,7 +60,7 @@ export const socialLinks = [
     platform: 'Instagram',
     handle: 'teslimsignature',
     Icon: FaInstagram,
-    href: '#',
+    href: 'https://www.instagram.com/teslimsignature',
     // Instagram's official radial gradient.
     badge:
       'radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)',
