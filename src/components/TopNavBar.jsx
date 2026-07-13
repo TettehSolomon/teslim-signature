@@ -7,9 +7,8 @@ export default function TopNavBar() {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface-container-lowest/80 backdrop-blur-md transition-all duration-300 ${
-        scrolled ? 'py-2 shadow-md' : 'py-4 shadow-sm dark:shadow-none'
-      }`}
+      className={`fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface-container-lowest/80 backdrop-blur-md transition-all duration-300 ${scrolled ? 'py-2 shadow-md' : 'py-4 shadow-sm dark:shadow-none'
+        }`}
     >
       <div className="flex justify-between items-center px-gutter max-w-container-max mx-auto">
         <div className="flex items-center gap-4">
@@ -45,9 +44,11 @@ export default function TopNavBar() {
               type="text"
             />
           </div>
-          <button className="bg-primary text-on-primary px-4 py-1.5 rounded-full font-semibold hover:opacity-80 transition-all duration-300 active:scale-95 text-body-md">
-            Shop Now
-          </button>
+          <a href="https://wa.link/2fiqng">
+            <button className="bg-primary text-on-primary px-4 py-1.5 rounded-full font-semibold hover:opacity-80 transition-all duration-300 active:scale-95 text-body-md cursor-pointer">
+              Shop Now
+            </button>
+          </a>
         </div>
       </div>
     </nav>
