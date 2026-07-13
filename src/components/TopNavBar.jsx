@@ -7,14 +7,14 @@ export default function TopNavBar() {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface-container-lowest/80 backdrop-blur-md transition-all duration-300 ${scrolled ? 'py-2 shadow-md' : 'py-4 shadow-sm dark:shadow-none'
+      className={`fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface-container-lowest/80 backdrop-blur-md transition-all duration-300 ${scrolled ? 'py-1 shadow-md' : 'py-2 shadow-sm dark:shadow-none'
         }`}
     >
       <div className="flex justify-between items-center px-gutter max-w-container-max mx-auto">
         <div className="flex items-center gap-4">
           <img
             alt="Teslimsignature Logo"
-            className="h-15 md:h-12 w-auto object-contain"
+            className="h-15 md:h-18 w-auto object-contain"
             src={images.logo}
           />
         </div>
