@@ -1,3 +1,5 @@
+import { FaTiktok, FaInstagram, FaSnapchat, FaWhatsapp } from 'react-icons/fa6'
+
 // Shared image assets (long CDN URLs kept in one place for reuse).
 export const images = {
   perfume:
@@ -44,15 +46,41 @@ export const galleryItems = [
   { caption: 'Inner Vitality', alt: 'Wellness Supplements', image: images.supplements },
 ]
 
+// Official brand marks with their official badge/icon colors.
 export const socialLinks = [
-  { platform: 'TikTok', handle: 'teslimsignature', icon: 'brand_family', href: '#' },
-  { platform: 'Instagram', handle: 'teslimsignature', icon: 'photo_camera', href: '#' },
-  { platform: 'Snapchat', handle: 'teslim_mercy', icon: 'chat_bubble', href: '#' },
+  {
+    platform: 'TikTok',
+    handle: 'teslimsignature',
+    Icon: FaTiktok,
+    href: '#',
+    badge: '#000000',
+    iconColor: '#ffffff',
+  },
+  {
+    platform: 'Instagram',
+    handle: 'teslimsignature',
+    Icon: FaInstagram,
+    href: '#',
+    // Instagram's official radial gradient.
+    badge:
+      'radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)',
+    iconColor: '#ffffff',
+  },
+  {
+    platform: 'Snapchat',
+    handle: 'teslim_mercy',
+    Icon: FaSnapchat,
+    href: '#',
+    badge: '#FFFC00',
+    iconColor: '#000000',
+  },
   {
     platform: 'WhatsApp',
     handle: '08142071665',
-    icon: 'phone_android',
+    Icon: FaWhatsapp,
     href: 'https://wa.me/08142071665',
+    badge: '#25D366',
+    iconColor: '#ffffff',
   },
 ]
 
