@@ -1,6 +1,6 @@
 import Icon from './Icon'
 import SocialLink from './SocialLink'
-import InquiryForm from './InquiryForm'
+import ConnectCard from './ConnectCard'
 import { socialLinks, contactDetails } from '../data/content'
 
 export default function Contact() {
@@ -40,7 +40,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <InquiryForm />
+          <ConnectCard />
         </div>
       </div>
     </section>
